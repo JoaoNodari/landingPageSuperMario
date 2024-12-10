@@ -1,0 +1,32 @@
+@media(max-width: 1200px) {
+
+    body {
+        background-color: rgba(0, 0, 0, 0.527);
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .conteudo-principal {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .conteudo-principal .informacoes .imagem-titulo, .conteudo-principal .img-mario {
+        width: 80%;
+    }
+
+    .conteudo-principal .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .modal #video {
+        width: 80%;
+        height: 40%;
+    }
+
+}

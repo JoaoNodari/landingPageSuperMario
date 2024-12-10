@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Super Mario</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href="#"><img class="logo" src="src/imagens/logo-chapeu-mario.png" alt="Logo Super Mario"></a>
+
+        <nav class="menu">
+            <ul class="item">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+
+        <section class="informacoes">
+            <img class="imagem-titulo" src="src/imagens/titulo.png" alt="Título Super Mario">
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nisi velit dicta unde repellendus. Nihil natus voluptatem atque repellendus tempora necessitatibus accusantium, blanditiis assumenda, voluptatibus sapiente impedit minima eveniet provident?</p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </section>
+
+        <img class="img-mario" src="src/imagens/super-mario-chars.png" alt="Super Mario">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ewlnrFIO_Co?si=xIn3jqLk2F3H2o-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
