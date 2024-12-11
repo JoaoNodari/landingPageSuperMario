@@ -32,6 +32,8 @@ body {
     align-items: center;
     padding: 20px;
     height: calc(100vh - 92px);
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .conteudo-principal .informacoes .imagem-titulo {
